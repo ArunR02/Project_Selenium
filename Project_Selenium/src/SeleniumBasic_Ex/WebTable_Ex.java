@@ -23,6 +23,7 @@ public class WebTable_Ex {
 		List<WebElement> alldata = driver.findElements(By.xpath("(//table/tbody/tr/td)"));
 		System.out.println("***All Data***");
 
+		
 		for (WebElement we_alldata : alldata) {
 
 			String textalldata = we_alldata.getText();

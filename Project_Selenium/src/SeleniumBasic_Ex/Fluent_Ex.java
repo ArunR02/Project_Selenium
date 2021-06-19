@@ -25,7 +25,6 @@ public static void main(String[] args) throws InterruptedException {
 		
 		driver.get("http://demo.automationtesting.in/Alerts.html");
 		
-		
 
  Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 .withTimeout(Duration.ofSeconds(30))
